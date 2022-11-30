@@ -42,7 +42,9 @@
     {% set nav_links = [
         ('/about', 'about', 'About'),
         ('/hello', 'hello', 'Hello'),
-        ('/dss/stockviz', 'dss_stockviz', 'Stock Price Visualization'),
+        ('/dss/stockviz', 'dss_stockviz', 'Stock Price Visualization')
+        ('/dss/options', 'dss_options', 'Option Pricing Tool'),
+        ('/dss/portfolios', 'dss_portfolios', 'Portfolio Optimization')
     ] -%}
     {% set active_page = active_page|default('home') -%}
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
