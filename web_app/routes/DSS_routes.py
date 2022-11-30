@@ -5,10 +5,10 @@ from flask import Blueprint, request, render_template, redirect, flash
 
 #from app.FINANCE_DSS import tool_1, tool_2, tool_3
 
-DSS_routes = Blueprint("DSS_routes", __name__)
+dss_routes = Blueprint("DSS_routes", __name__)
 
 
-@DSS_routes.route("/dss/dashboard")
+@dss_routes.route("/dss/dashboard")
 def DSS_dashboard():
     print("DECISION SUPPORT SYSTEM...")
 
